@@ -1,0 +1,94 @@
+/* Estilos divertidos con solo 3 colores */
+body {
+    font-family: 'Comic Neue', cursive;
+    background-color: #FFD166; /* Amarillo */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.todo {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #020202; /* Rosa */
+    text-shadow: 2px 2px 0px #06D6A0; /* Verde */
+}
+
+.juego {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #06D6A0; /* Verde */
+    border: 3px solid #EF476F; /* Rosa */
+    margin-bottom: 20px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.boton {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    background-color: #06D6A0; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    background-color: #EF476F; /* Rosa */
+}
+
+.resultado {
+    font-size: 24px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #EF476F; /* Rosa */
+}
+
+.marcador {
+    background-color: #EF476F; /* Rosa */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.final {
+    font-size: 24px;
+    padding: 20px;
+    background-color: #06D6A0; /* Verde */
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+.final button {
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    background-color: #EF476F; /* Rosa */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.final button:hover {
+    transform: scale(1.1);
+}
